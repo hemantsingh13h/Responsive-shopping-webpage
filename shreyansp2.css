@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    /*background-color: blue;*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#nav h4{
+    font-size: 1.3vw;
+}
+#nav{
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    padding: 0px 30px ;
+    font-weight: 600px;
+    /*background-color: aliceblue;*/
+}
+#nav i{
+    background-color: black;
+    color: white;
+    font-size: 1.2vw;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 50%;
+}
+#center{
+   
+    /*background-color: silver;*/
+    width: 100%;
+    height: 40%;
+    padding: 0px 60px;
+}
+#center h1{
+    font-size: 4.4vw;
+    font-weight: 400;
+    line-height: 5.2vw;
+}
+#center-in{
+    /*background-color: red;*/
+    height: 160px;
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+#center-in p{
+    font-size: 1vw;
+    font-weight: 700;
+    line-height: 18px;  
+}
+#right {
+    width: 20%;
+    text-decoration: none;
+    
+}
+.elem {
+    /*background-color: yellow;*/
+    margin: 5px;
+    padding: 10px 0;
+    border-top: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.elem a{
+    text-decoration: none;
+    font-size: 1.3vw;
+    font-weight: 600;
+    color: black;
+}
+.elem i{
+    opacity: 0;
+}
+.elem:hover i{
+    opacity: 1;
+}
+.elem:hover {
+background-color: rgb(224, 222, 222);
+}
+#bottom {
+    height: 50%;
+    width: 100%;
+    /* background-color: red; */
+    background-size: 100%;
+    background-image: url(https://i.pinimg.com/736x/41/a7/03/41a703285c611ef5fd8480aaa50dac9d.jpg);
+    object-fit: cover;
+    background-position: 0 30%;
+ 
+}
+@media (max-width:600px){
+    
+    #nav{
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: px;
+        padding: 0px 30px 20px 30px ;
+        font-weight: 600px;
+        /*background-color: aliceblue;*/
+    }
+    #nav i{
+        background-color: black;
+        color: rgb(250, 250, 251);
+        font-size: 10px;
+        padding: 10px;
+        font-weight: 500;
+        border-radius: 50%;
+        /* margin-left: 90px; */
+    }
+    #nav h4{
+        font-size: 4vw;
+    }
+    #center{
+   
+        /* background-color: silver; */
+        width: 100%;
+        height: 40%;
+        padding: 0 30px;
+    }
+    #center h1{
+        font-size: 9.5vw;
+        font-weight: 400;
+        line-height: 10vw;
+    }
+    #center-in{
+        /* background-color: red; */
+        height: 160px;
+        width: 100%;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+    #center-in p{
+        font-size: 3vw;
+        font-weight: 700;
+        line-height: 3.7vw;  
+    }
+    #right {
+        /* background-color: bisque; */
+        width: 100%;
+        text-decoration: none;
+        /* display: flex; */
+        justify-content: space-between;
+        padding: 30px 0px 30px 0;
+    }
+    .elem {
+        /* background-color: yellow; */
+        width: 100%;
+        margin-left: 0px;
+        height: 25%;
+        margin-top: px;
+        border-top: 3px solid black;
+        display: flex;
+        justify-content: space-between;
+    }
+    .elem a{
+       
+        text-decoration: none;
+        font-size: 4vw;
+        font-weight: 600;
+        color: rgb(3, 3, 3);
+    }
+    .elem i{
+        color: rgb(93, 92, 92);
+        opacity: 1;
+        font-size: 17px;
+    }
+    #bottom {
+        margin-top: 70px;
+        height: 70%;
+        width: 100%;
+        /* background-color: red; */
+        
+      
+    }    
+}
+
+
